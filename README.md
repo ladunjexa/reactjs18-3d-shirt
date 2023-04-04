@@ -71,7 +71,7 @@
 ## :star2: About the Project
 
 <div align="center">
-  <img src="readme_assets/3d-portfolio.png" height="auto" width="90%"/>
+  <img src="readme_assets/mock.png" height="auto" width="90%"/>
 </div>
 
 <br />
@@ -221,7 +221,3 @@ This section used to mention useful resources and libraries that used in webapp:
 - [OpenAI Api](https://openai.com)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="center">
-<img src="https://github.com/ladunjexa/AI-Powered-3D-Product-Web/blob/main/public/logo.png" height="auto" width="10%" />
-</p>
