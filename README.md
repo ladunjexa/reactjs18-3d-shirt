@@ -58,6 +58,7 @@
   * [Folder Structure](#bangbang-folder-structure)
   * [Tech Stack](#space_invader-tech-stack)
 - [Getting Started](#toolbox-getting-started)
+  * [Environment Variables](#key_environment_variables)
   * [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
 - [Contributing](#wave-contributing)
@@ -106,6 +107,25 @@ AI-Powered-3D-Product-Web/
 
 <!-- Getting Started -->
 ## :toolbox: Getting Started
+
+<!-- ENV VARIABLES -->
+### :key: Environment Variables
+
+In order to use this webapp you have to add some environment variables to .env files,
+The webapp uses OpenAI's API, so, you've to create OpenAI account and generate api key [here](https://openai.com/api), to run this webapp, meet with the conditions below.\
+
+##### _client-side_ [client/.env] 
+create `.env` file in `client/` directory & add the following environment variables:
+```env
+VITE_API_URL=<SERVER_URL>
+```
+
+##### _server-side_ [server/.env]
+create `.env` file in `server/` directory & add the following environment variables:
+```env
+OPENAI_API_KEY=<OPEN_AI_API_KEY>
+PORT=<PORT> // optional, default set to 8080
+```
 
 <!-- Installation -->
 ### :gear: Installation
